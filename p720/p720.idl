@@ -1,0 +1,20 @@
+// p720.idl : IDL source for p720.dll
+//
+
+// This file will be processed by the MIDL tool to
+// produce the type library (p720.tlb) and marshalling code.
+
+import "oaidl.idl";
+import "ocidl.idl";
+
+[
+	uuid(CE140917-0C36-4228-B599-57761C809AD5),
+	version(1.0),
+	helpstring("p720 1.0 Type Library")
+]
+library P720Lib
+{
+	importlib("stdole32.tlb");
+	importlib("stdole2.tlb");
+
+};
